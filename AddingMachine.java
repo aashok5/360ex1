@@ -3,7 +3,7 @@ package cse360assignment02;
 public class AddingMachine {
   private int total;
   //Creating the transaction string
-  private string transactions;
+  private String transactions;
   
   public AddingMachine () {
     total = 0;  // not needed - included for clarity
@@ -20,13 +20,13 @@ public class AddingMachine {
   public void add (int value) {
     //Adding parameter to total variable
     total = total + value;
-    string+=" + "+value;
+    transactions+=" + "+value;
   }
 
   public void subtract (int value) {
     //Subtract parameter from total variable
     total = total - value
-    string+=" - "+value;  
+    transactions+=" - "+value;  
   }
 
   public String toString () {
