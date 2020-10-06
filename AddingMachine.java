@@ -7,7 +7,7 @@ public class AddingMachine {
   
   public AddingMachine () {
     total = 0;  // not needed - included for clarity
-    //Initializing string
+    //Initializing string to 0
     transactions="0";
   }
   
